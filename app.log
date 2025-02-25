@@ -17,3 +17,21 @@
 2025-02-25 20:39:30,936 -  * Restarting with stat
 2025-02-25 20:39:31,292 -  * Debugger is active!
 2025-02-25 20:39:31,295 -  * Debugger PIN: 798-698-409
+2025-02-25 20:43:52,853 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 20:43:52,853 - [33mPress CTRL+C to quit[0m
+2025-02-25 20:43:52,854 -  * Restarting with stat
+2025-02-25 20:43:53,117 -  * Debugger is active!
+2025-02-25 20:43:53,121 -  * Debugger PIN: 798-698-409
+2025-02-25 20:44:35,727 - 127.0.0.1 - - [25/Feb/2025 20:44:35] "GET / HTTP/1.1" 200 -
+2025-02-25 20:44:48,461 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 20:44:48,546 - ✅ Код сгенерирован: Конечно! Вот простая версия игры "Крестики-нолики" на Python, которую можно играть в консоли между д...
+2025-02-25 20:45:10,373 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 20:45:10,449 - ✅ Код сгенерирован: Конечно, я могу помочь тебе создать простой калькулятор на Python. Вот пример кода, который выполняе...
+2025-02-25 20:45:22,629 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 20:45:22,711 - ✅ Код исправлен!
+2025-02-25 20:45:23,038 - 127.0.0.1 - - [25/Feb/2025 20:45:23] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-02-25 20:45:23,527 -  * Detected change in '/Users/vladimir/Desktop/AI_Programmer/generated_code.py', reloading
+2025-02-25 20:45:23,587 -  * Restarting with stat
+2025-02-25 20:45:23,885 -  * Debugger is active!
+2025-02-25 20:45:23,888 -  * Debugger PIN: 798-698-409
