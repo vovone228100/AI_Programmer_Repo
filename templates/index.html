@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Programmer</title>
+</head>
+<body>
+    <h1>AI Programmer</h1>
+    <textarea id="prompt" placeholder="Введите запрос..."></textarea>
+    <button onclick="generateCode()">Сгенерировать</button>
+    <pre id="output"></pre>
+
+    <script>
+        function generateCode() {
+            const prompt = document.getElementById("prompt").value;
+            fetch("/generate", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ prompt: prompt, language: "python" })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = data.code;
+            });
+        }
+    </script>
+</body>
+</html>

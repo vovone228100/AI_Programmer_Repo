@@ -1,0 +1,19 @@
+2025-02-25 20:36:58,495 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 20:36:58,495 - [33mPress CTRL+C to quit[0m
+2025-02-25 20:36:58,496 -  * Restarting with stat
+2025-02-25 20:36:58,762 -  * Debugger is active!
+2025-02-25 20:36:58,766 -  * Debugger PIN: 798-698-409
+2025-02-25 20:37:10,684 - 127.0.0.1 - - [25/Feb/2025 20:37:10] "GET / HTTP/1.1" 200 -
+2025-02-25 20:37:10,828 - 127.0.0.1 - - [25/Feb/2025 20:37:10] "GET / HTTP/1.1" 200 -
+2025-02-25 20:38:36,130 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 20:38:36,223 - ✅ Код сгенерирован: Конечно, вот простой пример игры "Крестики-нолики" на Python, который можно запустить в консоли:
+
+``...
+2025-02-25 20:39:30,578 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 20:39:30,660 - ✅ Код исправлен!
+2025-02-25 20:39:30,688 - 127.0.0.1 - - [25/Feb/2025 20:39:30] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-02-25 20:39:30,868 -  * Detected change in '/Users/vladimir/Desktop/AI_Programmer/generated_code.py', reloading
+2025-02-25 20:39:30,936 -  * Restarting with stat
+2025-02-25 20:39:31,292 -  * Debugger is active!
+2025-02-25 20:39:31,295 -  * Debugger PIN: 798-698-409

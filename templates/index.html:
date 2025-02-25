@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Developer</title>
+</head>
+<body>
+    <h1>Генерация кода с ИИ</h1>
+    <form action="/generate" method="post">
+        <label>Описание проекта:</label><br>
+        <textarea name="prompt" rows="4" cols="50"></textarea><br>
+        <label>Язык программирования:</label>
+        <select name="language">
+            <option value="python">Python</option>
+            <option value="js">JavaScript</option>
+        </select><br>
+        <button type="submit">Сгенерировать код</button>
+    </form>
+</body>
+</html>

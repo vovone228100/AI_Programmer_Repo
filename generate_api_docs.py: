@@ -1,0 +1,14 @@
+def generate_api_docs(api_description):
+    """Генерирует Swagger-документацию на основе описания API."""
+    system_message = (
+        "Ты ИИ-разработчик API. Напиши документацию OpenAPI/Swagger для следующего API: "
+    )
+    response = openai.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": api_description}
+        ],
+        temperature=0.5
+    )
+    return response.choices[0].message.content
