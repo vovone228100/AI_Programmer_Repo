@@ -69,3 +69,54 @@
 2025-02-25 20:49:58,680 -  * Restarting with stat
 2025-02-25 20:49:58,938 -  * Debugger is active!
 2025-02-25 20:49:58,941 -  * Debugger PIN: 798-698-409
+2025-02-25 23:57:12,424 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 23:57:12,424 - [33mPress CTRL+C to quit[0m
+2025-02-25 23:57:12,425 -  * Restarting with stat
+2025-02-25 23:57:12,686 -  * Debugger is active!
+2025-02-25 23:57:12,690 -  * Debugger PIN: 798-698-409
+2025-02-25 23:57:17,578 - 127.0.0.1 - - [25/Feb/2025 23:57:17] "GET / HTTP/1.1" 200 -
+2025-02-25 23:57:17,664 - 127.0.0.1 - - [25/Feb/2025 23:57:17] "GET / HTTP/1.1" 200 -
+2025-02-25 23:57:50,549 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 23:57:50,634 - ✅ Код сгенерирован: Конечно, вот простой пример калькулятора на Python, который выполняет базовые арифметические операци...
+2025-02-25 23:58:19,176 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 23:58:19,255 - ✅ Код исправлен!
+2025-02-25 23:58:19,420 - 127.0.0.1 - - [25/Feb/2025 23:58:19] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-02-25 23:58:20,117 -  * Detected change in '/Users/vladimir/Desktop/AI_Programmer/generated_code.py', reloading
+2025-02-25 23:58:20,171 -  * Restarting with stat
+2025-02-25 23:58:20,435 -  * Debugger is active!
+2025-02-25 23:58:20,438 -  * Debugger PIN: 798-698-409
+2025-02-25 23:59:23,316 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 23:59:23,317 - [33mPress CTRL+C to quit[0m
+2025-02-25 23:59:23,317 -  * Restarting with stat
+2025-02-25 23:59:23,574 -  * Debugger is active!
+2025-02-25 23:59:23,577 -  * Debugger PIN: 798-698-409
+2025-02-26 00:01:15,875 - 127.0.0.1 - - [26/Feb/2025 00:01:15] "GET / HTTP/1.1" 200 -
+2025-02-26 00:01:34,355 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 00:01:34,443 - ✅ Код сгенерирован: Конечно, вот простой пример калькулятора на Python, который выполняет базовые арифметические операци...
+2025-02-26 00:01:41,774 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 00:01:41,777 - ✅ Код сгенерирован: Конечно, я могу помочь вам создать простой калькулятор на Python. Этот калькулятор будет выполнять б...
+2025-02-26 00:02:05,192 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 00:02:05,195 - ✅ Код исправлен!
+2025-02-26 00:02:05,369 - 127.0.0.1 - - [26/Feb/2025 00:02:05] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-02-26 00:02:05,993 -  * Detected change in '/Users/vladimir/Desktop/AI_Programmer/generated_code.py', reloading
+2025-02-26 00:02:06,060 -  * Restarting with stat
+2025-02-26 00:02:06,330 -  * Debugger is active!
+2025-02-26 00:02:06,333 -  * Debugger PIN: 798-698-409
+2025-02-26 00:05:50,040 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 00:05:50,040 - [33mPress CTRL+C to quit[0m
+2025-02-26 00:05:50,040 -  * Restarting with stat
+2025-02-26 00:05:50,295 -  * Debugger is active!
+2025-02-26 00:05:50,298 -  * Debugger PIN: 798-698-409
+2025-02-26 00:05:55,599 - 127.0.0.1 - - [26/Feb/2025 00:05:55] "GET / HTTP/1.1" 200 -
+2025-02-26 00:06:37,461 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 00:06:37,548 - ✅ Код сгенерирован: Конечно, я могу помочь вам создать простой калькулятор на Python. Ниже представлен пример кода, кото...
+2025-02-26 00:07:09,511 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 00:07:09,589 - ✅ Код исправлен!
+2025-02-26 00:07:09,764 - 127.0.0.1 - - [26/Feb/2025 00:07:09] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-02-26 00:07:10,471 -  * Detected change in '/Users/vladimir/Desktop/AI_Programmer/generated_code.py', reloading
+2025-02-26 00:07:10,535 -  * Restarting with stat
+2025-02-26 00:07:10,808 -  * Debugger is active!
+2025-02-26 00:07:10,812 -  * Debugger PIN: 798-698-409
